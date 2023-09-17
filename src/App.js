@@ -1,4 +1,4 @@
-import { Button, Card, Carousel, Col, Container, Form, InputGroup, ListGroup, Nav, NavDropdown, Navbar, Row, Tab, Tabs } from 'react-bootstrap';
+import { Button, Card, Col, Form, InputGroup, ListGroup,  Navbar, Row, Tab, Tabs } from 'react-bootstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,7 +18,7 @@ function App() {
             </InputGroup>
           </Form>
           
-          <div className='rafpet'><img src="  "/></div>
+          <div className='rafpet'><img src=""/></div>
           
           <Form inline>
             <Row>
@@ -35,7 +35,7 @@ function App() {
         </Row>
           </Form>
         </Navbar>
-      </div>
+      
       
       <Tabs
       defaultActiveKey="profile"
@@ -64,15 +64,14 @@ function App() {
             <Button variant="light">BONS PLANS</Button>{' '}
             <Button variant="link">Link</Button>
           </>
-        </div> 
-      </div>
+      
       
       
       <h1 className='class'>Produits Pour Animaux</h1>
-      <div className='rafpets'><img src="https://scontent.ftun9-1.fna.fbcdn.net/v/t39.30808-6/301382704_550217363570783_7804836825405236399_n.jpg?_nc_cat=104&cb=99be929b-59f725be&ccb=1-7&_nc_sid=be3454&_nc_ohc=UtzEKLWD2lQAX9CoNIf&_nc_ht=scontent.ftun9-1.fna&oh=00_AfD0cgfpEaF2Ttj_zvSC0YmOVNlOnLYJO0DAU2cNTzbj8A&oe=64DDE2EA"/></div>
+      <div className='rafpets'><img src=" https://scontent.ftun10-1.fna.fbcdn.net/v/t39.30808-6/301382704_550217363570783_7804836825405236399_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=01Tv_iYuL_sAX8HeKZd&_nc_ht=scontent.ftun10-1.fna&oh=00_AfAWus8Z3aGgO_oB_yAlnY-jwBiv3GDTTdcHYC-FSe--Lw&oe=650D58EA"/></div>
       
       <div className='carte'>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '22rem' }}>
           <Card.Img variant="top" src="https://all-for-pets.tn/site/images/CHIENS/Selleries/Harnais/reste-04-Personnalis.png" />
           <Card.Body>
             <Card.Title>Julius k9 Harnais IDC-POWER Camouflage</Card.Title>
@@ -82,8 +81,7 @@ function App() {
                 <i className="plus">+</i>
                 <p className="qte">0</p>
                 <i className="minus">-</i>
-                <i class="heart"> </i>
-                <i className="trash"> </i>
+              
               </div>
           </Card.Body>
           <ListGroup className="list-group-flush">
@@ -93,12 +91,11 @@ function App() {
             <ListGroup.Item>Rembourrage intérieur confortable </ListGroup.Item>
           </ListGroup>
           <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            
           </Card.Body>
         </Card> 
         
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '22rem' }}>
           <Card.Img variant="top" src="https://all-for-pets.tn/site/images/CHIENS/Selleries/Laisses/vvv-01.png" />
           <Card.Body>
             <Card.Title>Felican Cuir Laisse d'exposition</Card.Title>
@@ -108,8 +105,7 @@ function App() {
               <i className="plus">+</i>
               <p className="qte">0</p>
               <i className="minus">-</i>
-              <i class="heart"> </i>
-              <i className="trash"> </i>
+              
             </div>
           </Card.Body>
             <ListGroup className="list-group-flush">
@@ -119,12 +115,11 @@ function App() {
               <ListGroup.Item>couleurs disponibles noir et beige</ListGroup.Item>
             </ListGroup>
           <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+          
           </Card.Body>
         </Card>
         
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '22rem' }}>
           <Card.Img variant="top" src="https://all-for-pets.tn/site/images/CHIENS/Selleries/Colliers/ffffff-11.png" />
           <Card.Body>
             <Card.Title>Felican Muselière cuir noir</Card.Title>
@@ -134,22 +129,22 @@ function App() {
                 <i className="plus">+</i>
                 <p className="qte">0</p>
                 <i className="minus">-</i>
-                <i class="heart"> </i>
-                <i className="trash"> </i>
-              </div>
+              
+                </div>
           </Card.Body>
           <ListGroup className="list-group-flush">
-            <ListGroup.Item>Design innovant</ListGroup.Item>
+            <ListGroup.Item>Design innovant 100% <br/>cuir</ListGroup.Item>
             <ListGroup.Item>fabrication très soignée</ListGroup.Item>
             <ListGroup.Item>Taille disponible : L </ListGroup.Item>
-            <ListGroup.Item>Couleur disponible noir</ListGroup.Item>
+            <ListGroup.Item>Couleur disponible noir et beige</ListGroup.Item>
           </ListGroup>
           <Card.Body>
-            <Card.Link href="#">Card Link</Card.Link>
-            <Card.Link href="#">Another Link</Card.Link>
+            
           </Card.Body>
-        </Card> 
-      
+        </Card>
+        </div> 
+      </div> 
+        </div>
       </div> 
     </div>
   );
