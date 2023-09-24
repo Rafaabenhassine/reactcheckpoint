@@ -8,17 +8,22 @@ function App() {
       <div>
         <Navbar className="bg-body-tertiary justify-content-between">
           <Form inline>
-            <InputGroup>
-            <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
-          <Form.Control
-            placeholder="Username"
-            aria-label="Username"
-            aria-describedby="basic-addon1"
-          />
-            </InputGroup>
+            
+            <Tabs
+      defaultActiveKey="profile"
+      id="uncontrolled-tab-example"
+      className="mb-3"
+        >
+          <Tab eventKey="home" title="Home">   </Tab>
+        
+          <Tab eventKey="profile" title="Profile">   </Tab>
+        
+          <Tab eventKey="contact" title="Contact">   </Tab>
+          
+      </Tabs>
           </Form>
           
-          <div className='rafpet'><img src=""/></div>
+        <img src="https://scontent.ftun10-1.fna.fbcdn.net/v/t39.30808-6/301382704_550217363570783_7804836825405236399_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=L7Mohu_T_h4AX-yATpv&_nc_ht=scontent.ftun10-1.fna&oh=00_AfBmweRpchh4csP9VINVpmNGdw009GcNaHCDPFDVfOlyUg&oe=651541EA" alt="image" style={{width: "100px", height: "100px"  }}/>
           
           <Form inline>
             <Row>
@@ -37,18 +42,7 @@ function App() {
         </Navbar>
       
       
-      <Tabs
-      defaultActiveKey="profile"
-      id="uncontrolled-tab-example"
-      className="mb-3"
-        >
-          <Tab eventKey="home" title="Home">   </Tab>
-        
-          <Tab eventKey="profile" title="Profile">   </Tab>
-        
-          <Tab eventKey="contact" title="Contact">   </Tab>
-          
-      </Tabs>
+      
           
           
       <div className='haroun'>
@@ -66,9 +60,24 @@ function App() {
           </>
       
       
+          <br/>
+      <br/>
+      <div>
+      <i className='produits'>Bienvenue à Rafpets</i>
       
-      <h1 className='class'>Produits Pour Animaux</h1>
-      <div className='rafpets'><img src=" https://scontent.ftun10-1.fna.fbcdn.net/v/t39.30808-6/301382704_550217363570783_7804836825405236399_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=01Tv_iYuL_sAX8HeKZd&_nc_ht=scontent.ftun10-1.fna&oh=00_AfAWus8Z3aGgO_oB_yAlnY-jwBiv3GDTTdcHYC-FSe--Lw&oe=650D58EA"/></div>
+      </div>
+      <br/>
+      <br/>
+      
+      {/* Si l'image est dans un sous-dossier
+      <img src="/subfolder/myImage.png" alt="myImage" />
+      Si l'image est dans le meme dossier
+      <img src="/myImage.png" alt="myImage"/> */}
+      
+      <div style={{marginTop:"0%",marginBlockEnd:"3%"}}>
+        <img src="https://www.lsystem.de/dasregalsystem/page-2/files/zoom_image-1672.png" alt="image" style={{width: "1000px", height: "400px"  }} />
+        <img src="https://www.roxane-westie.fr/wp-content/uploads/animalerie.jpg" alt="image" style={{width: "1000px", height: "400px"  }} />
+      </div>
       
       <div className='carte'>
         <Card style={{ width: '22rem' }}>
@@ -91,7 +100,7 @@ function App() {
             <ListGroup.Item>Rembourrage intérieur confortable </ListGroup.Item>
           </ListGroup>
           <Card.Body>
-            
+          <Button style={{color:'wite',fontSize:"20px",paddingRight:"15px"}}>ajouter au panier</Button>
           </Card.Body>
         </Card> 
         
@@ -115,7 +124,7 @@ function App() {
               <ListGroup.Item>couleurs disponibles noir et beige</ListGroup.Item>
             </ListGroup>
           <Card.Body>
-          
+          <Button style={{color:'wite',fontSize:"20px",paddingRight:"15px"}}>ajouter au panier</Button>
           </Card.Body>
         </Card>
         
@@ -139,7 +148,7 @@ function App() {
             <ListGroup.Item>Couleur disponible noir et beige</ListGroup.Item>
           </ListGroup>
           <Card.Body>
-            
+          <Button style={{color:'wite',fontSize:"20px",paddingRight:"15px"}}>ajouter au panier</Button>
           </Card.Body>
         </Card>
         </div> 

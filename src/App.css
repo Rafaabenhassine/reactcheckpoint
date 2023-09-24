@@ -2,8 +2,8 @@
   text-align: center;
   }
 
-.class {
-  color:silver;font-size: 50px;background-color:gold ;
+.produits {
+  color:silver;font-size: 50px ;
 }
 
 .carte {
@@ -27,7 +27,7 @@
   }
 
 .haroun {
-    background: transparent;
+  background: #212534;
     font-family: system-ui;
     margin: 0;
     padding: 0;
@@ -41,15 +41,24 @@
   padding: 0;
   border-bottom: 1cm;
   font-size: 2px;
+  width:rem;
+  height:rem;
   }
 
 .counter{
   display: inline-flex;
 }
 
+/* min-height: 100vh; */
+/* background: #212534;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-top: 2rem;
+padding-bottom: 2rem;
+box-sizing: border-box; */
 
-
-
+/*  */
 
 
 
